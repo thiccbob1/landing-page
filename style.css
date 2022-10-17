@@ -49,11 +49,14 @@ body{
     justify-content: space-around;
     border: 2px solid red;
     width: 600px;
+    height: 400px;
 }
 
 #hero-title{
     font-size: 48px;
     color: #F9FAF8;
+    padding: 0;
+    margin: 0;
 }
 
 #hero-text{
