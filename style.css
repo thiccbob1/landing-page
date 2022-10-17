@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    border: 2px solid red;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    background-color: #1F2937;
+
+}
+
+#headerText{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+.link{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    color: #e5e7eb96;
+}
