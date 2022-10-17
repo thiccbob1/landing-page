@@ -33,3 +33,45 @@ body{
     font-size: 18px;
     color: #e5e7eb96;
 }
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid red;
+    width: 600px;
+}
+
+#hero-title{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#hero-text{
+    font-size: 18px;
+    color: #e5e7eb96;
+}
+
+#hero-button{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+#image{
+    width: auto;
+    height: 400px;
+}
