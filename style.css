@@ -140,3 +140,40 @@ body{
     text-align: right;
     font-weight: bold;
 }
+
+.call-section{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 60%;
+    height: 200px;
+}
+
+.call-left{
+    color: #E5E7EB;
+}
+
+#call-button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#call-header{
+    font-size: 24px;
+}
