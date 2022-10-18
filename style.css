@@ -106,7 +106,9 @@ body{
 
 .info-img{
     width: auto;
-    height: 100px;
+    height: 125px;
+    border: 4px solid #3882F6;
+    border-radius: 4px;
 }
 
 .quote-container{
