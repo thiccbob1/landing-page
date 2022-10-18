@@ -8,7 +8,6 @@ body{
 
 .header{
     display: flex;
-    border: 2px solid red;
     margin: 0;
     justify-content: space-around;
     align-items: center;
@@ -47,7 +46,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 2px solid red;
     width: 600px;
     height: 400px;
 }
@@ -121,12 +119,10 @@ body{
 }
 
 .quote{
-    border: 2px solid red;
     width: 50%;
 }
 
 .quote-credit-container{
-    border: 2px solid red;
     width: 50%;
 }
 
@@ -176,4 +172,16 @@ body{
 
 #call-header{
     font-size: 24px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 80px;
+}
+
+#footer-text{
+    color: #F9FAF8;
 }
